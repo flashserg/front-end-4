@@ -2,33 +2,26 @@ html {
     font-family: 'Montserrat', Arial, "Helvetica Neue", Helvetica, sans-serif;
     line-height: 1.7333;
 }
-
 h1 {
-    font-family: 'Montserrat', Arial, "Helvetica Neue", Helvetica, sans-serif;
     font-weight: 400;
     font-size: 1.5rem;
 }
-
 .info {
     padding: 0;
 }
-
 .info li {
     display: inline;
     color: #999999;
 }
-
 .info li + li:before {
     content: '|';
     margin: 0 16px;
     color: #999999;
 }
-
 .info li a {
     text-decoration: none;
     color: #666666;
 }
-
 p {
     font-size: .93rem;
 }
