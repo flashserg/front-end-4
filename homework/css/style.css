@@ -1,0 +1,56 @@
+.wrapper {
+    background-color: #555555;
+}
+
+.list {
+    width: 920px;
+    height: 100%;
+    margin: 0 auto;
+}
+ol {
+    margin-top: 0;
+}
+li {
+    list-style: none;
+    position: relative;
+    background: #cccccc;
+    font-family: 'Arial', sans-serif;
+    font-weight: 400;
+    color: #282828;
+    font-size: .875rem;
+    line-height: 1.125rem;
+}
+
+li p {
+    margin: 0;
+    padding: 9px 9px 9px 53px;
+}
+
+.num {
+    position: absolute;
+    left: 0;
+    height: 100%;
+    width: 50px;
+    background: #cc4242;
+    font-family: "Times New Roman", serif;
+    font-weight: 400;
+    font-size: 1.5rem;
+    color: white;
+    text-align: center;
+    line-height: 1.5rem;
+}
+
+.num:before {
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+    content: "";
+}
+
+li:nth-child(even) {
+    background-color: #ffffff;
+}
+
+li:nth-child(even) .num {
+    background-color: #ff5353;
+}
